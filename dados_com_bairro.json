@@ -1,0 +1,423 @@
+[
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1964235,
+    "longitude": -47.262186,
+    "bairro": "Nossa Senhora do Monte Serrat"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.2023591,
+    "longitude": -47.2941538,
+    "bairro": "Jardim Marília"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.2033047,
+    "longitude": -47.3052424,
+    "bairro": "São Pedro e São Paulo"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.203478,
+    "longitude": -47.3065469,
+    "bairro": "São Pedro e São Paulo",
+    "tag": "Privada"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.2064269,
+    "longitude": -47.3010217,
+    "bairro": "Centro"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.1884259,
+    "longitude": -47.2726288,
+    "bairro": "Jardim das Nações II"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.2272975,
+    "longitude": -47.2672873,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "tipo": "multi;Futebol;Basquete;athletics;Tênis;volleyball;running;",
+    "categoria": "Quadra",
+    "latitude": -23.1785329,
+    "longitude": -47.3437674,
+    "bairro": "Terras de Santa Rosa I e II"
+  },
+  {
+    "tipo": "multi;Futebol;football;running",
+    "categoria": "Quadra",
+    "latitude": -23.1792504,
+    "longitude": -47.3434696,
+    "bairro": "Terras de Santa Rosa I e II"
+  },
+  {
+    "tipo": "multi;Futebol;football;running",
+    "categoria": "Quadra",
+    "latitude": -23.1795216,
+    "longitude": -47.3485015,
+    "bairro": "Terras de Santa Rosa I e II"
+  },
+  {
+    "tipo": "bowls",
+    "categoria": "Quadra",
+    "latitude": -23.1784497,
+    "longitude": -47.3440503,
+    "bairro": "Terras de Santa Rosa I e II"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1940533,
+    "longitude": -47.2942247,
+    "bairro": "Jardim Marília"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1898808,
+    "longitude": -47.2818473,
+    "bairro": "Salto"
+  },  
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.183754,
+    "longitude": -47.2630092,
+    "bairro": "Jardim Nair Maria"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1835374,
+    "longitude": -47.262939,
+    "bairro": "Jardim Nair Maria"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.198005,
+    "longitude": -47.2860461,
+    "bairro": "Jardim Marília"
+  },
+  {
+    "tipo": "Basquete",
+    "categoria": "Quadra",
+    "latitude": -23.1979442,
+    "longitude": -47.2858333,
+    "bairro": "Jardim Marília"
+  },
+  {
+    "tipo": "Tênis",
+    "categoria": "Quadra",
+    "latitude": -23.1978993,
+    "longitude": -47.2855372,
+    "bairro": "Jardim Marília"
+  },
+  {
+    "tipo": "beachvolleyball",
+    "categoria": "Quadra",
+    "latitude": -23.1979048,
+    "longitude": -47.290894,
+    "bairro": "Jardim Marília"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.2000653,
+    "longitude": -47.2732379,
+    "bairro": "Nossa Senhora do Monte Serrat"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.211993008571046,  
+    "longitude": -47.27650943534917,
+    "bairro": "Jardim Marília"
+  },
+  {
+    "tipo": "beachvolleyball",
+    "categoria": "Quadra",
+    "latitude": -23.2112613,
+    "longitude": -47.2766365,
+    "bairro": "Jardim Marília"
+  },  
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.21599,
+    "longitude": -47.2658151,
+    "bairro": "Jardim Imperial"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.2156566,
+    "longitude": -47.2656287,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "tipo": "Tênis",
+    "categoria": "Quadra",
+    "latitude": -23.2310956,
+    "longitude": -47.2624263,
+    "bairro": "Condomínio Monte Belo"
+  },
+  {
+    "tipo": "Tênis",
+    "categoria": "Quadra",
+    "latitude": -23.2309902,
+    "longitude": -47.2625515,
+    "bairro": "Condomínio Monte Belo"
+  },
+  {
+    "tipo": "Basquete",
+    "categoria": "Quadra",
+    "latitude": -23.2184506,
+    "longitude": -47.2664922,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.2273383,
+    "longitude": -47.267907,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.2248819,
+    "longitude": -47.266309,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "tipo": "volleyball",
+    "categoria": "Quadra",
+    "latitude": -23.2238302,
+    "longitude": -47.2660147,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.2235719,
+    "longitude": -47.2659719,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "tipo": "volleyball",
+    "categoria": "Quadra",
+    "latitude": -23.2239025,
+    "longitude": -47.2658701,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.2249826,
+    "longitude": -47.2644764,
+    "bairro": "Jardim Monte Paschoal"
+  },
+  {
+    "tipo": "boules",
+    "categoria": "Quadra",
+    "latitude": -23.2252797,
+    "longitude": -47.265095,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "tipo": "skateboard",
+    "categoria": "Quadra",
+    "latitude": -23.2243417,
+    "longitude": -47.2639139,
+    "bairro": "Jardim Monte Paschoal"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.2255153,
+    "longitude": -47.2701553,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.2257338,
+    "longitude": -47.2703165,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.2222099,
+    "longitude": -47.2652838,
+    "bairro": "Núcleo Industrial Alert"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.2219917,
+    "longitude": -47.2641962,
+    "bairro": "Jardim Monte Paschoal"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1951443,
+    "longitude": -47.2878531,
+    "bairro": "Jardim Marília"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1951957,
+    "longitude": -47.2884107,
+    "bairro": "Jardim Marília"
+  },
+  {
+    "tipo": "Basquete",
+    "categoria": "Quadra",
+    "latitude": -23.1951749,
+    "longitude": -47.288069,
+    "bairro": "Jardim Marília"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.1873142,
+    "longitude": -47.2986636,
+    "bairro": "Central Park"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1878079,
+    "longitude": -47.2986602,
+    "bairro": "Central Park"
+  },
+  {
+    "tipo": "Tênis",
+    "categoria": "Quadra",
+    "latitude": -23.1864354,
+    "longitude": -47.2992959,
+    "bairro": "Central Park"
+  },  
+  {
+    "tipo": "Tênis",
+    "categoria": "Quadra",
+    "latitude": -23.1631005,
+    "longitude": -47.3170327,
+    "bairro": "Portal dos Bandeirantes"
+  },
+  {
+    "tipo": "Tênis",
+    "categoria": "Quadra",
+    "latitude": -23.1631048,
+    "longitude": -47.3168598,
+    "bairro": "Portal dos Bandeirantes"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.1630627,
+    "longitude": -47.3163848,
+    "bairro": "Portal dos Bandeirantes"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1630415,
+    "longitude": -47.3166613,
+    "bairro": "Portal dos Bandeirantes"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1795425,
+    "longitude": -47.3033612,
+    "bairro": "São Gabriel"
+  },
+  {
+    "tipo": "Basquete",
+    "categoria": "Quadra",
+    "latitude": -23.1793969,
+    "longitude": -47.3032666,
+    "bairro": "São Gabriel"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1840328,
+    "longitude": -47.2840951,
+    "bairro": "Jardim Independência II"
+  },
+  {
+    "tipo": "Tênis",
+    "categoria": "Quadra",
+    "latitude": -23.1892924,
+    "longitude": -47.2812435,
+    "bairro": "Salto"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.1889474,
+    "longitude": -47.2809282,
+    "bairro": "Salto"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1767201,
+    "longitude": -47.3290704,
+    "bairro": "Terras de Mont Serrat"
+  },
+  {
+    "categoria": "Quadra",
+    "latitude": -23.1816831,
+    "longitude": -47.3255439,
+    "bairro": "Terras de Mont Serrat"
+  },
+  {
+    "tipo": "Tênis",
+    "categoria": "Quadra",
+    "latitude": -23.1819639,
+    "longitude": -47.3262699,
+    "bairro": "Terras de Mont Serrat"
+  },
+  {
+    "tipo": "Futebol",
+    "categoria": "Quadra",
+    "latitude": -23.1815044,
+    "longitude": -47.3259699,
+    "bairro": "Terras de Mont Serrat"
+  },
+  {
+    "tipo": "Tênis",
+    "categoria": "Quadra",
+    "latitude": -23.181607,
+    "longitude": -47.3260977,
+    "bairro": "Terras de Mont Serrat"
+  },
+  {
+    "tipo": "multi",
+    "categoria": "Quadra",
+    "latitude": -23.1823102,
+    "longitude": -47.319244,
+    "bairro": "Jardim D'Icaraí"
+  },
+  {
+    "tipo": "Tênis",
+    "categoria": "Quadra",
+    "latitude": -23.1822583,
+    "longitude": -47.3187992,
+    "bairro": "Jardim D'Icaraí"
+  },
+  {
+    "tipo": "skateboard",
+    "categoria": "Quadra",
+    "latitude": -23.1986597,
+    "longitude": -47.2909704,
+    "bairro": "Jardim Marília"
+  }
+]
