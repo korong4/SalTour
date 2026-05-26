@@ -156,26 +156,49 @@ fetch('praca.geojson') // mapa da praças de salto-SP
     }).addTo(map);
 });
 
-function alterarFundo(elemento,cor1,cor2){ // parte para mudar o fundo do main (header)
-    if (elemento.style.backgroundColor === cor1){
-        elemento.style.backgroundColor = cor2;
-        elemento.style.color = cor1;
-    }
-    else{
-        elemento.style.backgroundColor = cor1;
-        elemento.style.color = cor2;
-    } 
+function alterarFundo(elemento,corTexto,corFundo,logo){ // parte para mudar o fundo do main (header)
+    const logoIMG = document.getElementById("logoIMG");
+    const logoLoc = document.querySelector(".botaoLoc");
+    logoIMG.src = logo;
+    logoLoc.style.backgroundColor = corFundo;
+    elemento.style.backgroundColor = corFundo;
+    elemento.style.color = corTexto;
 }
 
-const chechbox = document.getElementById("checkbox");
-checkbox.addEventListener("change", function () {
-    if (checkbox.checked) {
-        alterarFundo(document.querySelector('.main'),'white','black');
+const chechbox = document.getElementById("Checkbox"); // funcao que muda a cor 
+chechbox.addEventListener("change", function () {
+    if (chechbox.checked) { // preto
+        alterarFundo(document.querySelector('.main'),'black','white',"logo1.jpg");
         map.removeLayer(dark);
         map.addLayer(light);
-    } else {
-        alterarFundo(document.querySelector('.main'),'black','white');
+    } else { // branco
+        alterarFundo(document.querySelector('.main'),'white','black',"logo2.png");
         map.removeLayer(light);
         map.addLayer(dark);
     }
 });
+
+async function enviarMensagem() {
+    const input = document.getElementById("inputMensagem");
+    const mensagem = input.value;
+    const res = await fetch("http://localhost:3000/chat", {
+
+        method: "POST",
+
+        headers: {
+            "Content-Type": "application/json"
+        },
+
+        body: JSON.stringify({
+            mensagem
+        })
+    });
+    const data = await res.json();
+    console.log(data);
+    const mensagens = document.getElementById("mensagens");
+    mensagens.innerHTML += `
+        <p><b>Você:</b> ${mensagem}</p>
+        <p><b>IA:</b> ${data.resposta}</p>
+    `;
+    input.value = "";
+}

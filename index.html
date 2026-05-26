@@ -6,30 +6,71 @@
   <title>Mapa de Salto-SP</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
   <body>
   <div id="map"></div>
 
   <header class="main">
-    <h1>menu</h1>
-    <label class="switch">  
-      <input checked="true" id="checkbox" type="checkbox" /> <!-- botao de escuro/claro-->
-      <span class="slider">
-      <div class="star star_1"></div>
-      <div class="star star_2"></div>
-      <div class="star star_3"></div>
-      <svg viewBox="0 0 16 16" class="cloud_1 cloud">
-      <path
-        transform="matrix(.77976 0 0 .78395-299.99-418.63)"
-        fill="#fff"
-        d="m391.84 540.91c-.421-.329-.949-.524-1.523-.524-1.351 0-2.451 1.084-2.485 2.435-1.395.526-2.388 1.88-2.388 3.466 0 1.874 1.385 3.423 3.182 3.667v.034h12.73v-.006c1.775-.104 3.182-1.584 3.182-3.395 0-1.747-1.309-3.186-2.994-3.379.007-.106.011-.214.011-.322 0-2.707-2.271-4.901-5.072-4.901-2.073 0-3.856 1.202-4.643 2.925"
-      ></path>
-      </svg>
-      </span>
-    </label> <!-- fim do botao-->
 
-    <button onclick="pegar_loc()" type="button"> clique aqui </button>
+    <div class="logo">
+      <img id="logoIMG" src="logo1.jpg" alt="logo do Saltour" width="100px" height="100px">
+    </div>
 
+    <div class="barraPesquisa">
+      <div class="group">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="search-icon">
+          <g>
+            <path
+              d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+            ></path>
+          </g>
+        </svg>
+    <input
+      id="query"
+      class="input"
+      type="search"
+      placeholder="Search..."
+      name="searchbar"
+    />
+      </div>
+    </div>
+
+    <div class="botaoLoc">
+      <button id="LOC"onclick="pegar_loc()" type="button" > 
+          <i class="fa-solid fa-location-crosshairs"></i>
+      </button>
+    </div>
+
+    <div class="chatbox">
+        <i id="CHAT" class="fa-solid fa-comment"></i>
+
+      <div id="mensagens"></div>
+
+      
+      <!--<button onclick="enviarMensagem()" > 
+        enviar
+      </button>
+      -->
+    </div>
+
+    <div class="botaoEscuroClaro">
+      <label class="switch">  
+        <input checked="true" id="Checkbox" type="checkbox" /> <!-- botao de escuro/claro-->
+        <span class="slider">
+        <div class="star star_1"></div>
+        <div class="star star_2"></div>
+        <div class="star star_3"></div>
+        <svg viewBox="0 0 16 16" class="cloud_1 cloud">
+        <path
+          transform="matrix(.77976 0 0 .78395-299.99-418.63)"
+          fill="#fff"
+          d="m391.84 540.91c-.421-.329-.949-.524-1.523-.524-1.351 0-2.451 1.084-2.485 2.435-1.395.526-2.388 1.88-2.388 3.466 0 1.874 1.385 3.423 3.182 3.667v.034h12.73v-.006c1.775-.104 3.182-1.584 3.182-3.395 0-1.747-1.309-3.186-2.994-3.379.007-.106.011-.214.011-.322 0-2.707-2.271-4.901-5.072-4.901-2.073 0-3.856 1.202-4.643 2.925"
+        ></path>
+        </svg>
+        </span>
+      </label> <!-- fim do botao-->
+    </div>
 
   </header>
 
